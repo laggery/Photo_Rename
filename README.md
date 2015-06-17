@@ -13,5 +13,4 @@ Steps:
 4)	Click rename button
 
 
-Attention!
-This application is currently operational only on windows.
+The application is now also operational on mac 
