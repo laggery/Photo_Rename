@@ -53,7 +53,7 @@ public class MainController {
                         Date date = directory.getDate(ExifSubIFDDirectory.TAG_DATETIME_ORIGINAL);
                         date = this.addShift(date);
                         do {
-                            name = file.getParent() + "\\" + this.config.getName(dateFormat.format(date));
+                            name = file.getParent() + "/" + this.config.getName(dateFormat.format(date));
                             if (index > 1) {
                                 name += "-" + index;
                             }
